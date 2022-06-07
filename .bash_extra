@@ -1,0 +1,32 @@
+# Various enchacements
+# bash completions
+# first run `brew install bash-completion`
+[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && source "/opt/homebrew/etc/profile.d/bash_completion.sh"
+
+
+# # pipenv
+# eval "$(pipenv --completion)"
+
+# # pyenv
+# if command -v pyenv 1>/dev/null 2>&1; then
+#   eval "$(pyenv init -)"
+#   # https://github.com/pyenv/pyenv/issues/1915
+#   eval "$(pyenv init --path)"
+# fi
+
+# # rbenv
+# eval "$(rbenv init -)"
+
+# # minikube
+# source <(minikube completion bash)
+
+# # Kubectl
+# source <(kubectl completion bash)
+
+# # aws cli
+# complete -C '/Users/rumen/Library/Python/3.7/bin/aws_completer' aws
+# . <(eksctl completion bash)
+
+# # Helm
+# source <(helm completion bash)
+

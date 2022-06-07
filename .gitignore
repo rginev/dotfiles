@@ -1,0 +1,12 @@
+##
+# OS X
+##
+.DS_Store
+.AppleDouble
+.LSOverride
+xcuserdata
+Pods
+keyrace-mac.xcworkspace/
+
+# Thumbnails
+._*

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Homebrew
+export PATH="/opt/homebrew/bin/:$PATH"
