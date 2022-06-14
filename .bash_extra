@@ -20,15 +20,16 @@
 # # minikube
 # source <(minikube completion bash)
 
-# # Kubectl
-# source <(kubectl completion bash)
+# Kubectl and kustomize
+source <(kubectl completion bash)
+source <(kustomize completion bash)
 
 # # aws cli
 # complete -C '/Users/rumen/Library/Python/3.7/bin/aws_completer' aws
 # . <(eksctl completion bash)
 
-# # Helm
-# source <(helm completion bash)
+# Helm
+source <(helm completion bash)
 
 # terraform
 complete -C /usr/local/bin/terraform terraform

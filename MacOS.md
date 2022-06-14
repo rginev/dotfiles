@@ -52,4 +52,19 @@ Under `Colors` tab, you will see `Basic Colors` header. Change the `Foreground` 
 
 - [Install the gcloud CLI](https://cloud.google.com/sdk/docs/install)
 - [gcloud CLI cheat sheet](https://cloud.google.com/sdk/docs/cheatsheet)
+- bash completion: see [.bash_extra](./.bash_extra)
+
+### kubectl
+
+- [Install Kubectl and Kustomize](https://kubectl.docs.kubernetes.io/installation/)
+- bash completion: see [.bash_extra](./.bash_extra)
+
+### k9s
+
+- [k9scli.io](https://k9scli.io/)
+
+### helm
+
+- [Installing Helm](https://helm.sh/docs/intro/install/)
+- [Helm Completion Bash](https://helm.sh/docs/helm/helm_completion_bash/)
 
