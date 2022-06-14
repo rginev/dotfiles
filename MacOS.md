@@ -43,5 +43,13 @@ Under `Colors` tab, you will see `Basic Colors` header. Change the `Foreground` 
 - Makefile Tools
 - HashiCorp Terraform
 
+### terraform
 
+- [terraform appropriate package](https://www.terraform.io/downloads)
+- `terraform -install-autocomplete`
+
+###  gcloud CLI 
+
+- [Install the gcloud CLI](https://cloud.google.com/sdk/docs/install)
+- [gcloud CLI cheat sheet](https://cloud.google.com/sdk/docs/cheatsheet)
 

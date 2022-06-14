@@ -10,3 +10,6 @@ keyrace-mac.xcworkspace/
 
 # Thumbnails
 ._*
+
+# VSCode
+**/.vscode
