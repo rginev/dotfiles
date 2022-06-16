@@ -76,7 +76,9 @@ Under `Colors` tab, you will see `Basic Colors` header. Change the `Foreground` 
 ### docker without docker desktop
 
 Rancher Desktop (RD) replaces Docker Desktop - see first link below for instructions.
-**Note** 
+
+**Notes** 
+
 - RD installs cli tools under `~/.rd/bin/`
 - RD docker daemon socket is also under `~/.rd/bin/` with `/var/run/docker.sock` as a symlink to it
 
@@ -85,5 +87,8 @@ See:
 - [Install Docker on Mac M1 without Docker Desktop](https://dev.to/sergej_brazdeikis/install-docker-on-mac-m1-without-docker-desktop-k6o)
 - [Run Docker without Docker Desktop on macOS](https://dhwaneetbhatt.com/blog/run-docker-without-docker-desktop-on-macos)
 
+Installation:
+
 - `brew install docker docker-compose`
+- Follow screen instructions about docker-compose
 - Bash completion is installed automatically 
