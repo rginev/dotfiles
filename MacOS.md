@@ -82,8 +82,8 @@ Rancher Desktop (RD) replaces Docker Desktop - see first link below for instruct
 
 See:
 
-- (Install Docker on Mac M1 without Docker Desktop)[https://dev.to/sergej_brazdeikis/install-docker-on-mac-m1-without-docker-desktop-k6o]
-- (Run Docker without Docker Desktop on macOS)[https://dhwaneetbhatt.com/blog/run-docker-without-docker-desktop-on-macos]
+- [Install Docker on Mac M1 without Docker Desktop](https://dev.to/sergej_brazdeikis/install-docker-on-mac-m1-without-docker-desktop-k6o)
+- [Run Docker without Docker Desktop on macOS](https://dhwaneetbhatt.com/blog/run-docker-without-docker-desktop-on-macos)
 
 - `brew install docker docker-compose`
 - Bash completion is installed automatically 
