@@ -68,3 +68,22 @@ Under `Colors` tab, you will see `Basic Colors` header. Change the `Foreground` 
 - [Installing Helm](https://helm.sh/docs/intro/install/)
 - [Helm Completion Bash](https://helm.sh/docs/helm/helm_completion_bash/)
 
+### kind
+
+- [kind](https://kind.sigs.k8s.io/) is a tool for running local Kubernetes clusters using Docker container “nodes”
+- Bash completion is installed automatically 
+
+### docker without docker desktop
+
+Rancher Desktop (RD) replaces Docker Desktop - see first link below for instructions.
+**Note** 
+- RD installs cli tools under `~/.rd/bin/`
+- RD docker daemon socket is also under `~/.rd/bin/` with `/var/run/docker.sock` as a symlink to it
+
+See:
+
+- (Install Docker on Mac M1 without Docker Desktop)[https://dev.to/sergej_brazdeikis/install-docker-on-mac-m1-without-docker-desktop-k6o]
+- (Run Docker without Docker Desktop on macOS)[https://dhwaneetbhatt.com/blog/run-docker-without-docker-desktop-on-macos]
+
+- `brew install docker docker-compose`
+- Bash completion is installed automatically 
