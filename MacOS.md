@@ -42,6 +42,8 @@ Under `Colors` tab, you will see `Basic Colors` header. Change the `Foreground` 
 - GitLens
 - Makefile Tools
 - HashiCorp Terraform
+- Google Cloud Code
+- Better Align
 
 ### terraform
 
@@ -92,3 +94,8 @@ Installation:
 - `brew install docker docker-compose`
 - Follow screen instructions about docker-compose
 - Bash completion is installed automatically 
+
+### Various utilities
+
+#### jq
+ - `brew install jq`
