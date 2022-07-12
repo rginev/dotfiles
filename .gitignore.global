@@ -1,0 +1,18 @@
+# Source: https://blog.martinhujer.cz/dont-put-idea-vscode-directories-to-projects-gitignore/
+
+# PhpStorm
+.idea
+
+# VSCode
+.vscode
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+xcuserdata
+Pods
+keyrace-mac.xcworkspace/
+
+# Thumbnails
+._*
