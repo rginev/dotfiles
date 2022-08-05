@@ -24,8 +24,10 @@
 source <(kubectl completion bash)
 source <(kustomize completion bash)
 
-# # aws cli
-# complete -C '/Users/rumen/Library/Python/3.7/bin/aws_completer' aws
+# aws cli
+complete -C '/usr/local/bin/aws_completer' aws
+eval "$(aws-vault --completion-script-bash)"
+
 # . <(eksctl completion bash)
 
 # Helm

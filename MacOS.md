@@ -50,6 +50,12 @@ Under `Colors` tab, you will see `Basic Colors` header. Change the `Foreground` 
 - [terraform appropriate package](https://www.terraform.io/downloads)
 - `terraform -install-autocomplete`
 
+###  aws CLI 
+
+- [Installing or updating the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+- [aws cli command completion](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-completion.html)
+- [AWS Vault](https://github.com/99designs/aws-vault)
+
 ###  gcloud CLI 
 
 - [Install the gcloud CLI](https://cloud.google.com/sdk/docs/install)
