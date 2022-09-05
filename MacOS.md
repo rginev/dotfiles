@@ -62,6 +62,18 @@ Under `Colors` tab, you will see `Basic Colors` header. Change the `Foreground` 
 - [gcloud CLI cheat sheet](https://cloud.google.com/sdk/docs/cheatsheet)
 - bash completion: see [.bash_extra](./.bash_extra)
 
+### Azure cli
+
+- [Install Azure CLI](https://docs.microsoft.com/en-au/cli/azure/install-azure-cli-macos)
+- bash completion: 
+
+```
+brew list az
+....
+/opt/homebrew/Cellar/azure-cli/2.39.0/etc/bash_completion.d/az
+....
+```
+
 ### kubectl
 
 - [Install Kubectl and Kustomize](https://kubectl.docs.kubernetes.io/installation/)

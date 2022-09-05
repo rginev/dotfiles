@@ -42,3 +42,6 @@ if [ -f '/usr/local/bin/google-cloud-sdk/path.bash.inc' ]; then . '/usr/local/bi
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/usr/local/bin/google-cloud-sdk/completion.bash.inc' ]; then . '/usr/local/bin/google-cloud-sdk/completion.bash.inc'; fi
+
+# Azure cli
+if [ -f '/opt/homebrew/Cellar/azure-cli/2.39.0/etc/bash_completion.d/az' ]; then source '/opt/homebrew/Cellar/azure-cli/2.39.0/etc/bash_completion.d/az'; fi
