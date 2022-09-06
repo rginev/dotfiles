@@ -1,0 +1,2 @@
+# Lines which begin with a space character are not saved in the history list
+export HISTCONTROL=ignorespace
