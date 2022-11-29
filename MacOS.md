@@ -79,6 +79,10 @@ brew list az
 - [Install Kubectl and Kustomize](https://kubectl.docs.kubernetes.io/installation/)
 - bash completion: see [.bash_extra](./.bash_extra)
 
+### kubectl krew plugin
+
+- [Install krew](https://krew.sigs.k8s.io/docs/user-guide/setup/install/)
+
 ### k9s
 
 - [k9scli.io](https://k9scli.io/)
