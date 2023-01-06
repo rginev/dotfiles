@@ -44,11 +44,20 @@ Under `Colors` tab, you will see `Basic Colors` header. Change the `Foreground` 
 - HashiCorp Terraform
 - Google Cloud Code
 - Better Align
+- tfsec
 
 ### terraform
 
 - [terraform appropriate package](https://www.terraform.io/downloads)
 - `terraform -install-autocomplete`
+
+### tfsec
+
+- [use brew](https://github.com/aquasecurity/tfsec)
+
+```
+brew install tfsec
+```
 
 ###  aws CLI 
 
