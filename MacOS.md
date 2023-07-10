@@ -64,6 +64,7 @@ brew install tfsec
 - [Installing or updating the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - [aws cli command completion](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-completion.html)
 - [AWS Vault](https://github.com/99designs/aws-vault)
+- [AWS Copilot](https://aws.amazon.com/blogs/containers/introducing-aws-copilot/)
 
 ###  gcloud CLI 
 
@@ -122,7 +123,7 @@ See:
 
 Installation:
 
-- `brew install docker docker-compose`
+- `brew install docker docker-compose docker-credential-helper`
 - Follow screen instructions about docker-compose
 - Bash completion is installed automatically 
 
