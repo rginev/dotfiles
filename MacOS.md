@@ -65,6 +65,14 @@ brew install tfsec
 - [aws cli command completion](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-completion.html)
 - [AWS Vault](https://github.com/99designs/aws-vault)
 - [AWS Copilot](https://aws.amazon.com/blogs/containers/introducing-aws-copilot/)
+- [eksctl](https://github.com/weaveworks/eksctl/tree/main)
+```
+ARCH=arm64
+PLATFORM=$(uname -s)_$ARCH
+curl -sLO "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$PLATFORM.tar.gz"
+tar -xzf eksctl_$PLATFORM.tar.gz -C /tmp && rm eksctl_$PLATFORM.tar.gz
+sudo mv /tmp/eksctl /usr/local/bin
+```
 
 ###  gcloud CLI 
 
