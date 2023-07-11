@@ -31,7 +31,8 @@ eval "$(aws-vault --completion-script-bash)"
 # aws copilot
 eval "$(copilot completion bash)"
 
-# . <(eksctl completion bash)
+# eksctl
+. <(eksctl completion bash)
 
 # Helm
 source <(helm completion bash)
