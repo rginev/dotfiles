@@ -23,6 +23,17 @@ Under `Terminal` tab, you will see `Notifications` header. Check the `Silence` b
 `iTerm2 -> Preferences -> Profiles`
 Under `Colors` tab, you will see `Basic Colors` header. Change the `Foreground` color HEX code to `f5deb3`.
 
+- Moving Faster
+  - [how-to-set-keyboard-shortcuts-to-jump-to-beginning-end-of-line](https://stackoverflow.com/questions/6205157/how-to-set-keyboard-shortcuts-to-jump-to-beginning-end-of-line)
+
+    - Open Preferences
+    - Click "Profile" tab
+    - Select a profile in the list on the left (eg "Default")
+    - Click "Keys" tab
+    - Click "Key Mappings" tab (if it exists)
+    - Click the "Presets" dropdown and select "Natural Text Editing"
+
+
 ### Bash
 
 - [Upgrading Bash on macOS](https://itnext.io/upgrading-bash-on-macos-7138bd1066ba)
