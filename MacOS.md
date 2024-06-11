@@ -150,3 +150,9 @@ Installation:
 
 #### jq
  - `brew install jq`
+
+#### 7zip
+
+https://apple.stackexchange.com/questions/343488/how-to-open-password-protected-7zip-archive-on-osx
+
+- `brew install p7zip`
