@@ -47,7 +47,7 @@ with
 
 Add any additonal packages you may need. Find package from `nix-env -qaP` command or from https://search.nixos.org/packages
 
-### Let nix-darwin to do the job
+### Let nix-darwin do the job
 
 ```
 sudo nix run nix-darwin --extra-experimental-features "nix-command flakes" -- switch --flake /etc/nix-darwin 

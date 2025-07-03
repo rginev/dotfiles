@@ -15,6 +15,8 @@
       environment.systemPackages = with pkgs; [
           awscli2
           aws-vault
+          bash-completion
+          nix-bash-completions
           kubectl
           kustomize
           k9s
@@ -22,6 +24,8 @@
           git-toolbelt
           gnumake
           p7zip
+          docker
+          colima
           # iterm2
           # helm
           # vscode
@@ -32,7 +36,11 @@
       #   [ pkgs.vim
       #   ];
 
+      # For packages such as vscode
       nixpkgs.config.allowUnfree = true;
+
+      # In addition to installing bash-completion and nix-bash-completions
+      programs.bash.completion.enable = true;
 
       # Necessary for using flakes on this system.
       nix.settings.experimental-features = "nix-command flakes";
