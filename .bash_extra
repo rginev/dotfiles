@@ -25,14 +25,14 @@ source <(kubectl completion bash)
 source <(kustomize completion bash)
 
 # aws cli
-complete -C '/usr/local/bin/aws_completer' aws
+complete -C '/run/current-system/sw/bin/aws_completer' aws
 eval "$(aws-vault --completion-script-bash)"
 
 # aws copilot
-eval "$(copilot completion bash)"
+# eval "$(copilot completion bash)"
 
 # eksctl
-. <(eksctl completion bash)
+# . <(eksctl completion bash)
 
 # Helm
 source <(helm completion bash)
@@ -42,10 +42,16 @@ complete -C /usr/local/bin/terraform terraform
 
 # Google Cloud CLI
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/usr/local/bin/google-cloud-sdk/path.bash.inc' ]; then . '/usr/local/bin/google-cloud-sdk/path.bash.inc'; fi
+# if [ -f '/usr/local/bin/google-cloud-sdk/path.bash.inc' ]; then . '/usr/local/bin/google-cloud-sdk/path.bash.inc'; fi
 
-# The next line enables shell command completion for gcloud.
-if [ -f '/usr/local/bin/google-cloud-sdk/completion.bash.inc' ]; then . '/usr/local/bin/google-cloud-sdk/completion.bash.inc'; fi
+# # The next line enables shell command completion for gcloud.
+# if [ -f '/usr/local/bin/google-cloud-sdk/completion.bash.inc' ]; then . '/usr/local/bin/google-cloud-sdk/completion.bash.inc'; fi
 
-# Azure cli
-if [ -f '/opt/homebrew/Cellar/azure-cli/2.39.0/etc/bash_completion.d/az' ]; then source '/opt/homebrew/Cellar/azure-cli/2.39.0/etc/bash_completion.d/az'; fi
+# # Azure cli
+# if [ -f '/opt/homebrew/Cellar/azure-cli/2.39.0/etc/bash_completion.d/az' ]; then source '/opt/homebrew/Cellar/azure-cli/2.39.0/etc/bash_completion.d/az'; fi
+
+# just
+# Generate completion script
+# just --completions bash >  ~/.bash.d/just.bash
+# if [ -f ~/.bash.d/just.bash ]; then source ~/.bash.d/just.bash; fi
+

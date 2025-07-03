@@ -12,3 +12,7 @@ for file in ~/.{bash_path,bash_prompt,bash_exports,bash_aliases,bash_functions,b
 done;
 unset file;
 
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+# export PATH="/Users/rumen.ginev/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)

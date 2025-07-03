@@ -1,5 +1,10 @@
 # MacOS Setup
 
+## NixOS
+
+Many of the tools are installed by [nix](./nix).
+Although `nix` can install graphical applications such as iTerm2 it is highly recommended to stick to standard ways of installing them. When installed by `nix` they appear in Launchpad, however cannot be found by Spotlight
+
 ## Applications
 
 - Firefox
@@ -8,6 +13,7 @@
 - Moped
 - VSCode
 - LibreOffice
+- Xcode (via App Store)
 
 - [Homebrew](https://brew.sh/)
 
@@ -30,7 +36,7 @@ Under `Colors` tab, you will see `Basic Colors` header. Change the `Foreground` 
     - Click "Profile" tab
     - Select a profile in the list on the left (eg "Default")
     - Click "Keys" tab
-    - Click "Key Mappings" tab (if it exists)
+    - Click "Key Bindings" tab (if it exists)
     - Click the "Presets" dropdown and select "Natural Text Editing"
 
 

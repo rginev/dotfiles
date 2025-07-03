@@ -5,7 +5,7 @@
 [core]
 	editor = vim
 	# Source: https://blog.martinhujer.cz/dont-put-idea-vscode-directories-to-projects-gitignore/
-	excludesfile = ~/.gitignore.global
+	excludesfile = ~/.gitconfig.d/.gitignore.global
 
 [http]
 	proxyAuthMethod = basic
@@ -39,7 +39,7 @@
         untracked = cyan
 
 [pull]
-        rebase = true
+        rebase = false
 
 [push]
 	default = simple
@@ -62,4 +62,13 @@
         lg1 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
         lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
         lg = !"git lg1"
+
+# Client Specific Configuration
+# https://stackoverflow.com/questions/52479641/manage-2-git-users-gpg-key-and-choose-gpg-sign-per-user
+# https://blog.notmyidea.org/multiple-identities-and-gpg-keys-for-git.html
+[includeIf "gitdir:~/repos/paymentology/"]
+  path = ~/.gitconfig.d/paymentology
+
+[includeIf "gitdir:~/repos/blankfactor/"]
+  path = ~/.gitconfig.d/blankfactor
 
